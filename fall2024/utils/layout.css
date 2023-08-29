@@ -1,0 +1,187 @@
+@charset "utf-8";
+
+
+
+    /*
+        utils css
+    */
+
+
+    body a{
+        text-decoration:none;
+    }
+
+    body{
+      font-family: 'Lato', sans-serif;
+    }
+    .italic{
+      font-style: italic;
+    }
+
+
+
+  /*----------------------------*/
+
+
+  #title_container{
+    width: 1200px;
+    border:0;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:30px;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  #course_title{
+    float: left;
+    line-height: 40px;
+  }
+
+  #logo{
+    display: block;
+    position: absolute;
+    top:10px;
+    right:10px;
+    width: 350px;
+  }
+
+  div.white-text{
+    color:white;
+  }
+
+  /*
+    navigation
+  */
+  div.navigation{
+    background-color:#0D3D75;
+  }
+  div.navigation > div.nav > a.block:hover{
+    background-color:#4072aa;
+  }
+  div.navigation > div.content{
+    padding:10px;
+  }
+  div.navigation > div.nav.content{
+    height:50px;
+    padding:0;
+    width:1200px;
+    margin:0 auto;
+  }
+  div.navigation > div.nav > a.block{
+    float:left;
+    width:200px;
+    padding:15px;
+    text-align:center;
+    color:white;
+    cursor:pointer;
+    text-decoration:none;
+    display:block;
+    color:white;
+    font-weight:bold;
+  }
+
+
+  /*
+    main content
+  */
+  #main{
+    width: 1200px;
+    border:0;
+    margin: 0 auto;
+    position: relative;
+  }
+  div.title{
+    padding:30px 0;
+    border-top:1px silver solid;
+    margin-top: 10px;
+    font-size:2em;
+    font-weight:700;
+  }
+  div.paragraph{
+    padding:5px 0;
+    line-height: 40px;
+    font-size:1.2em;
+  }
+  #course_info{
+    list-style: disc inside none;
+    font-size:1.2em;
+  }
+  #course_info > ol{
+    list-style: decimal inside none;
+  }
+  #course_info > li{
+    line-height:40px;
+    padding-bottom:5px;
+  }
+  div.center_inline{
+    position: relative;
+    text-align: center;
+  }
+  div.img_container{
+    padding:20px 10px;
+    margin: 0 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    font-size:1.1em;
+  }
+  div.img_container > img{
+    height: 200px;
+  }
+  #course_schedule > ol{
+    list-style: decimal inside none;
+  }
+  #course_schedule > li{
+    line-height:40px;
+    padding-bottom:5px;
+    margin-left: 50px;
+  }
+  #course_schedule > li > span.label{
+    padding:6px;
+    font-size:0.9em;
+  }
+  #course_schedule > li > span.name{
+    font-weight: bold;
+    font-size:1.2em;
+  }
+
+  /*
+    footer1
+  */
+  body div.footer1{
+    margin-top:30px;
+    padding-top:20px;
+    background-color: #0D3D75;
+  }
+  body div.footer1 > div.content{
+    position:relative;
+  }
+  body div.footer1 > div.content > div.logos{
+    width:200px;
+    position:absolute;
+    top:10px;
+    right:150px;
+    text-align:right;
+    padding:0px 0;
+  }
+  body div.footer1 > div.content > div.logos > img.logo{
+    max-height:100px;
+    max-width:300px;
+    margin-left:50px;
+    margin-right:0;
+  }
+
+  body div.footer > div.content{
+    padding:10px;
+    margin: 0 auto;
+    width:1200px;
+  }
+  body div.footer1 > div.content{
+    padding:20px;
+    line-height:50px;
+    font-size:1.2em;
+  }
+
+
+
+
